@@ -1,0 +1,49 @@
+ body {  
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+        }
+        head {
+            background-color: #111;
+            color: orange;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+            nav li {
+                display: inline;
+                margin-right: 20px;
+
+            }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+
+        }
+
+        nav a:hover {
+            color: orange;
+
+        }
+        section {
+            padding: 50px 20px;
+        }
+        footer {
+            background-color: #111;
+            color:  orange;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    
